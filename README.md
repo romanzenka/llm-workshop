@@ -2,7 +2,7 @@
 
 ***IMPORTANT: FORKED from Argonne's Workshop, used by permission for team preparation***
 
-All LLM training notebooks authored by Argonne National Laboratory team. 
+All LLM training notebooks authored by Argonne National Laboratory team.   
 The  workshop activities rely on Jupyter Notebooks which are targeted for running on [Google's Colaboratory Platform](https://colab.research.google.com).  
 
 ## Before You Start ✅
