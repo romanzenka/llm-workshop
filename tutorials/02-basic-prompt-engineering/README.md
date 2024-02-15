@@ -4,3 +4,5 @@ An account on Hugging Face (optional for accessing private models or increasing 
 
 Input your Hugging Face API key when prompted to authenticate with the Hugging Face Hub (if necessary).
 Follow the step-by-step instructions and execute the code cells in sequence to explore the various prompt engineering concepts and techniques.
+
+**IMPORTANT: DO NOT CHECK-IN YOUR HUGGING FACE API KEY to GITHUB!**
