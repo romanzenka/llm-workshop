@@ -5,7 +5,7 @@
 All LLM training notebooks authored by Argonne National Laboratory team.   
 The  workshop activities rely on Jupyter Notebooks which are targeted for running on [Google's Colaboratory Platform](https://colab.research.google.com).  
 
-## Before You Start ✅
+## Before You Start 
 
 > [!IMPORTANT]  
 > Complete the following steps **BEFORE** start the training activities
@@ -74,7 +74,7 @@ The  workshop activities rely on Jupyter Notebooks which are targeted for runnin
 
 
 <details open>
-    <summary><b>Tutorials</b></summary>
+    <summary><b>Tutorials  ✅ </b></summary>
     <ol start="1.">
         <li><a href="./tutorials/01-llm-101/"><code>LLMs 101</code></a></li>
         <li><a href="./tutorials/02-basic-prompt-engineering/"><code>Prompt Engineering</code></a></li>
