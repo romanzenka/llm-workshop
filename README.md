@@ -1,10 +1,9 @@
 # Large Language Models (LLMs): Tutorial Workshop
 
+***IMPORTANT: FORKED from Argonne's Workshop, used by permission for team preparation***
+
 [Workshop Agenda](https://anl.app.box.com/file/1421615910690?s=woqtpw0o0tpnb6j9uljjme5wqmxsoz35)  
 Argonne National Laboratory  
-_February 12th and 13th, 2024_  
-**Building 240**, **Room 1501** (in-person)
-
 This repository contains the materials used in the LLM Tutorial Workshop, February 12th and 13th, 2024.
 
 The  workshop material will rely on Jupyter Notebooks which are targeted for running on [Google's Colaboratory Platform](https://colab.research.google.com).  
