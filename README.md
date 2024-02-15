@@ -1,10 +1,9 @@
-# Large Language Models (LLMs): Tutorial Workshop
+# Large Language Models (LLMs): Tutorial Notebooks
 
 ***IMPORTANT: FORKED from Argonne's Workshop, used by permission for team preparation***
 
-Training materials authored by Argonne National Laboratory team. This repository contains the materials used in the LLM Tutorial Workshop, February 12th and 13th, 2024.
+All LLM training notebooks authored by Argonne National Laboratory team. 
 The  workshop activities rely on Jupyter Notebooks which are targeted for running on [Google's Colaboratory Platform](https://colab.research.google.com).  
-
 
 ## Before You Start ✅
 
@@ -87,7 +86,8 @@ The  workshop activities rely on Jupyter Notebooks which are targeted for runnin
 
 ## Other Information
 
-NOTE: Originally presented at Argonne for internal team training - [Workshop Agenda](https://anl.app.box.com/file/1421615910690?s=woqtpw0o0tpnb6j9uljjme5wqmxsoz35)  
+- This repository contains the materials used in the LLM Tutorial Workshop, February 12th and 13th, 2024.  
+- NOTE: Originally presented at Argonne for internal team training - [Workshop Agenda](https://anl.app.box.com/file/1421615910690?s=woqtpw0o0tpnb6j9uljjme5wqmxsoz35)  
 
 
 <!--
