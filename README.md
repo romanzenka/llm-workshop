@@ -3,13 +3,13 @@
 ***IMPORTANT: FORKED from Argonne's Workshop, used by permission for team preparation***
 
 Training materials authored by Argonne National Laboratory team. This repository contains the materials used in the LLM Tutorial Workshop, February 12th and 13th, 2024.
-The  workshop material will rely on Jupyter Notebooks which are targeted for running on [Google's Colaboratory Platform](https://colab.research.google.com).  Originally presented at Argonne for internal team training.
-[Workshop Agenda](https://anl.app.box.com/file/1421615910690?s=woqtpw0o0tpnb6j9uljjme5wqmxsoz35)  
+The  workshop activities rely on Jupyter Notebooks which are targeted for running on [Google's Colaboratory Platform](https://colab.research.google.com).  
+
 
 ## Before You Start ✅
 
 > [!IMPORTANT]  
-> Complete the following steps **BEFORE** you come to the tutorial
+> Complete the following steps **BEFORE** start the training activities
 > 
 > - [ ] [Google Colab](https://colab.research.google.com) **Setup Account**
 > 
@@ -85,7 +85,9 @@ The  workshop material will rely on Jupyter Notebooks which are targeted for run
     </ol>
 </details>
 
+## Other Information
 
+NOTE: Originally presented at Argonne for internal team training - [Workshop Agenda](https://anl.app.box.com/file/1421615910690?s=woqtpw0o0tpnb6j9uljjme5wqmxsoz35)  
 
 
 <!--
