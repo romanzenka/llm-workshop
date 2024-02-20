@@ -1,3 +1,5 @@
+# Run the Notebook
+
 An account on Hugging Face (optional for accessing private models or increasing API rate limits).
 
 **Usage**
