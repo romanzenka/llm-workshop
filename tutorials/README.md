@@ -1,11 +1,9 @@
-# Large Language Models (LLMs): Tutorial Workshop -- Introduction
+# Large Language Models (LLMs): Tutorial Workshop --  Mac Setup
 
-[Workshop Agenda](https://anl.app.box.com/file/1421615910690?s=woqtpw0o0tpnb6j9uljjme5wqmxsoz35)  
-Argonne National Laboratory  
-_February 12th and 13th, 2024_  
-**Building 240**, **Room 1501** (in-person)
 
-The workshop material rely on Python and Jupyter Notebooks which are targeted for running on [Google's Colaboratory Platform](https://colab.research.google.com).  
+The tutorial material relies on Python and Jupyter Notebooks which are targeted for running on [Google's Colaboratory Platform](https://colab.research.google.com).  
+
+## Alt Setup - Local Mac
 
 Creating an installation script for Jupyter Notebooks on a Mac involves using a terminal and a package manager like Homebrew, and possibly pip (Python's package installer). The following script assumes you have Homebrew installed on your Mac. If you don't have Homebrew installed, you can install it by following the instructions on the [Homebrew website](https://brew.sh).
 
