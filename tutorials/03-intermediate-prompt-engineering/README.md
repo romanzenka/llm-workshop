@@ -1,1 +1,3 @@
 # Will add notebook example...
+
+- HF Prompting Guide --> https://huggingface.co/docs/transformers/main/en/tasks/prompting
