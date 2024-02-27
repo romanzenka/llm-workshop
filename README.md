@@ -1,30 +1,14 @@
-# Large Language Models (LLMs): Tutorial Workshop
+# Large Language Models (LLMs): Tutorial Notebooks
 
-[Workshop Agenda](https://anl.app.box.com/file/1421615910690?s=woqtpw0o0tpnb6j9uljjme5wqmxsoz35)  
-Argonne National Laboratory  
-_February 12th and 13th, 2024_  
-**Building 240**, **Room 1501** (in-person)
+***IMPORTANT: FORKED from Argonne's Workshop, used by permission for team preparation***
 
-This repository contains the materials used in the LLM Tutorial Workshop, February 12th and 13th, 2024.
+All LLM training notebooks authored by Argonne National Laboratory team.   
+The  workshop activities rely on Jupyter Notebooks which are targeted for running on [Google's Colaboratory Platform](https://colab.research.google.com).  
 
-The  workshop material will rely on Jupyter Notebooks which are targeted for running on [Google's Colaboratory Platform](https://colab.research.google.com).  
-
-<details open>
-    <summary><b>Tutorials</b></summary>
-    <ol start="1.">
-        <li><a href="./tutorials/01-llm-101/"><code>LLMs 101</code></a></li>
-        <li><a href="./tutorials/02-basic-prompt-engineering/"><code>Prompt Engineering</code></a></li>
-        <li><a href="./tutorials/04-rag/"><code>Retrieval Augmented Generation (RAG)</code></a></li>
-        <li><a href="./tutorials/05-fine-tuning/"><code>Fine-Tuning an Existing LLM</code></a></li>
-        <li><a href="./tutorials/06-llm-from-scratch/"><code>LLMs from Scratch</code></a></li>
-    </ol>
-</details>
-
-
-## Before You Arrive ✅
+## Before You Start 
 
 > [!IMPORTANT]  
-> Complete the following steps **BEFORE** you come to the tutorial
+> Complete the following steps **BEFORE** start the training activities
 > 
 > - [ ] [Google Colab](https://colab.research.google.com) **Setup Account**
 > 
@@ -78,7 +62,7 @@ The  workshop material will rely on Jupyter Notebooks which are targeted for run
 > 
 >     </details>
 > 
-> - [ ] 🦙 [Request access](https://ai.meta.com/resources/models-and-libraries/llama-downloads/) to Llama-2 model
+> - [ ] 🦙 [Request access](https://ai.meta.com/resources/models-and-libraries/llama-downloads/) to Llama-2 model from Meta
 > 
 >     <details closed><summary><code>Llama-2 Access Instructions</code></summary>
 > 
@@ -87,6 +71,23 @@ The  workshop material will rely on Jupyter Notebooks which are targeted for run
 >     - Note: Your Hugging Face account email address MUST match the email you provide on the Meta website, or your request will not be approved.
 > 
 >     </details>
+
+
+<details open>
+    <summary><b>Tutorials  ✅ </b></summary>
+    <ol start="1.">
+        <li><a href="./tutorials/01-llm-101/"><code>LLMs 101</code></a></li>
+        <li><a href="./tutorials/02-basic-prompt-engineering/"><code>Prompt Engineering</code></a></li>
+        <li><a href="./tutorials/04-rag/"><code>Retrieval Augmented Generation (RAG)</code></a></li>
+        <li><a href="./tutorials/05-fine-tuning/"><code>Fine-Tuning an Existing LLM</code></a></li>
+        <li><a href="./tutorials/06-llm-from-scratch/"><code>LLMs from Scratch</code></a></li>
+    </ol>
+</details>
+
+## Other Information
+
+- This repository contains the materials used in the LLM Tutorial Workshop, February 12th and 13th, 2024.  
+- NOTE: Originally presented at Argonne for internal team training - [Workshop Agenda](https://anl.app.box.com/file/1421615910690?s=woqtpw0o0tpnb6j9uljjme5wqmxsoz35)  
 
 
 <!--
