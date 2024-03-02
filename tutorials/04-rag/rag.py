@@ -3,7 +3,7 @@ from langchain import HuggingFacePipeline
 from os import path
 import torch
 
-device = "cuda:0" if torch.cuda.is_available() else "cpu"
+device = "cuda:7" if torch.cuda.is_available() else "cpu"
 
 with open('/homes/ac.rzenka/llm/.token', 'r') as file:
     hf_token = file.read().replace('\n', '')
@@ -40,11 +40,10 @@ question = "What is RF Fold?"
 searchDocs = db.similarity_search(question)
 print(searchDocs[0].page_content)
 
-from transformers import AutoTokenizer, AutoModelForSeq2SeqLM,pipeline
+from transformers import AutoTokenizer, AutoModelForCausalLM, pipeline
 
-
-tokenizer = AutoTokenizer.from_pretrained("google/flan-t5-large")
-model = AutoModelForSeq2SeqLM.from_pretrained("google/flan-t5-large")
+tokenizer = AutoTokenizer.from_pretrained("meta-llama/Llama-2-7b-hf")
+model = AutoModelForCausalLM.from_pretrained("meta-llama/Llama-2-7b-hf")
 pipe = pipeline("text2text-generation", model=model, tokenizer=tokenizer, device=device)
 llm = HuggingFacePipeline(
    pipeline = pipe,
