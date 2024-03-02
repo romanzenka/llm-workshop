@@ -42,8 +42,8 @@ print(searchDocs[0].page_content)
 
 from transformers import AutoTokenizer, AutoModelForCausalLM, pipeline
 
-tokenizer = AutoTokenizer.from_pretrained("meta-llama/Llama-2-7b-hf")
-model = AutoModelForCausalLM.from_pretrained("meta-llama/Llama-2-7b-hf")
+tokenizer = AutoTokenizer.from_pretrained("meta-llama/Llama-2-7b-chat-hf")
+model = AutoModelForCausalLM.from_pretrained("meta-llama/Llama-2-7b-chat-hf")
 pipe = pipeline("text2text-generation", model=model, tokenizer=tokenizer, device=device)
 llm = HuggingFacePipeline(
    pipeline = pipe,
