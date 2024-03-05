@@ -50,7 +50,7 @@ tokenizer = AutoTokenizer.from_pretrained(MODEL_NAME)
 model = AutoModelForCausalLM.from_pretrained(MODEL_NAME, torch_dtype = torch.float16)
 
 generation_config = GenerationConfig.from_pretrained(MODEL_NAME)
-generation_config.max_new_tokens = 1024
+generation_config.max_new_tokens = 128
 generation_config.temperature = 0.0001
 generation_config.top_p = 0.95
 generation_config.do_sample = True
@@ -87,14 +87,14 @@ qa_chain = RetrievalQA.from_chain_type(
 )
 print("-----------------------")
 query = { "query" : "How many molecules that contained at least one tetracene fragment were within the OSCs dataset?" };
-print(f"Question: {query['query']}")
+print(f"{query['query']}\n")
 result = qa_chain (query)
 print(result["result"])
 print("=======================")
 
 print("-----------------------")
-query = { "query" : "Which scientific article should I read to learn about tetracene fragments?" }
-print(f"Question: {query['query']}")
+query = { "query" : "Which scientific article should I read to learn about how many tetracene fragments were there within the OSCs dataset?" }
+print(f"{query['query']}\n")
 article = qa_chain (query)
 print(article["result"])
 print("=======================")
