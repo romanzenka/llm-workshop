@@ -37,7 +37,7 @@ else:
   db = FAISS.load_local("faiss_pdfs", embeddings)
 
 print("-------------------------------------")
-question = "What is RF Fold?"
+question = "How many molecules that contained at least one tetracene fragment were within the OSCs dataset?"
 print(f"Find closest database entry to '{question}'\n")
 searchDocs = db.similarity_search(question)
 print(searchDocs[0].page_content)
@@ -86,14 +86,14 @@ qa_chain = RetrievalQA.from_chain_type(
   chain_type_kwargs={"prompt": QA_CHAIN_PROMPT}
 )
 print("-----------------------")
-query = { "query" : "What technique proposed in 2023 can be used to predict protein folding?" };
+query = { "query" : "How many molecules that contained at least one tetracene fragment were within the OSCs dataset?" };
 print(f"Question: {query['query']}")
 result = qa_chain (query)
 print(result["result"])
 print("=======================")
 
 print("-----------------------")
-query = { "query" : "Which scientific article should I read to learn about RFdiffusion for protein folding?" }
+query = { "query" : "Which scientific article should I read to learn about tetracene fragments?" }
 print(f"Question: {query['query']}")
 article = qa_chain (query)
 print(article["result"])
